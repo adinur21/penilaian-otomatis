@@ -21,6 +21,13 @@ Aplikasi ini digunakan untuk menilai keberhasilan deployment siswa di AWS secara
 2. **Install Dependensi**
    ```bash
    npm install
+3. **Konfigurasi Environment**
+   Buat file .env dan isi dengan konfigurasi berikut:
+   ```env
+   PORT=3000
+   AWS_ACCESS_KEY_ID=your_aws_key
+   AWS_SECRET_ACCESS_KEY=your_aws_secret
+
 3. **Jalankan Aplikasi**
    ```bash
    npm start
